@@ -65,11 +65,12 @@ alert("Aye lets play a game");
 
  
 
-let problem=prompt(' I will give you food chocices you just got gotta anwer yes or no is that ok ?');
-
-if (problem=='yes'||problem=='Y'){alert('Thats great');}
+let problem=(' I will give you food chocices you just got gotta anwer yes or no is that ok ?');
+response= prompt (problem).toLowerCase();
+if (response=='yes'||response=='y'){alert('Thats great');}
 else { alert ("well thats rude ");
 }
+
 
 
 
@@ -79,11 +80,11 @@ console.log(problem);
 
 
 
+let guess = ('pizza');
 
-let guess =prompt('pizza');
 
-
-if (guess=='Yes'||guess=='Y'){alert('right');}
+response= prompt (guess).toLowerCase();
+if (response=='yes'||response=='y'){alert('right');}
 
 else { alert ("wrong");
 }
@@ -91,27 +92,30 @@ else { alert ("wrong");
 
 
 
-let guess2 = prompt('burguers');
-
-if (guess2=='yes'||guess2=='Y') {alert('yup');}
+let guess2 = ('burguers');
+response= prompt (guess2).toLowerCase();
+if (response=='yes'||response=='y') {alert('yup');}
 else { alert ('wrong');
 }
 
-  let guess3 =prompt('soup');
+  let guess3 =('soup');
+  response= prompt (guess3).toLowerCase();
 
 
-  if (guess3=='yes'||guess3=='Y') { alert('wrong');}
+  if (response=='yes'||response=='y') { alert('wrong');}
 else{  alert("your right");}
    
 
 
-   let guess4 = prompt('chicken ');
+   let guess4 = ('chicken ');
 
-   if (guess4=='yes'||guess4=='Y') {  alert('yesssss sir');}
+   response= prompt (guess4).toLowerCase();
+   if (response=='yes'||response=='y') {  alert('yesssss sir');}
   else { alert( 'wrong'); }
-
-guess5 = prompt('walffes ');
-if (guess5=='yes'||guess5=='Y') { alert('Yes ');}
+  
+guess5 = ('walffes ');
+response= prompt (guess5).toLowerCase();
+if (response=='yes'||response=='y') { alert('Yes ');}
 else { alert('wrong'); } 
  
 alert ('round2');
