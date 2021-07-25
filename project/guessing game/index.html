@@ -31,89 +31,147 @@
     <li>ufc 3</li>
 
     <li>ufc 4</li>
-    <script>
-      let username = prompt("Hey whats your name");
-      console.log(username);
+   
+  </body> 
 
-      alert(" Your pretty cool  " + username);
 
-      let planet = prompt("My name is Tommy where are you from");
-      console.log(planet);
 
-      alert(" ive never been to  " + planet);
 
-      alert(" well I live in memphis " + username);
-      alert("Aye lets play a game");
+  <style>
+body { background-color:#F29F05;
+background-image: url(smokeblue.jpg);
+ background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            font-size: large;
+         
+            
+}
 
-      let problem =
-        " I will give you food chocices you just got gotta anwer yes or no is that ok ?";
-      response = prompt(problem).toLowerCase();
-      if (response == "yes" || response == "y") {
-        alert("Thats great");
-      } else {
-        alert("well thats rude ");
+/*color name*/
+h1{ color: rgb(16, 152, 243);
+
+}
+p{color: rgb(1, 1, 7);}
+
+
+
+
+
+
+
+  </style>
+  <script>
+    let username = prompt("Hey whats your name");
+    console.log(username);
+
+    alert(" Your pretty cool  " + username);
+
+    let planet = prompt("My name is Tommy where are you from");
+    console.log(planet);
+
+    alert(" ive never been to  " + planet);
+
+    alert(" well I live in memphis " + username);
+    alert("Aye lets play a game");
+
+    let problem =
+      " I will give you food chocices you just got gotta anwer yes or no is that ok ?";
+    response = prompt(problem).toLowerCase();
+    if (response == "yes" || response == "y") {
+      alert("Thats great");
+    } else {
+      alert("well thats rude ");
+    }
+
+    console.log(problem);
+
+    let guess = "pizza";
+
+    response = prompt(guess).toLowerCase();
+    if (response == "yes" || response == "y") {
+      alert("right");
+    } else {
+      alert("wrong");
+    }
+
+    let guess2 = "burguers";
+    response = prompt(guess2).toLowerCase();
+    if (response == "yes" || response == "y") {
+      alert("yup");
+    } else {
+      alert("wrong");
+    }
+
+    let guess3 = "soup";
+    response = prompt(guess3).toLowerCase();
+
+    if (response == "yes" || response == "y") {
+      alert("wrong");
+    } else {
+      alert("your right");
+    }
+
+    let guess4 = "chicken ";
+
+    response = prompt(guess4).toLowerCase();
+    if (response == "yes" || response == "y") {
+      alert("yesssss sir");
+    } else {
+      alert("wrong");
+    }
+
+    guess5 = "walffes ";
+    response = prompt(guess5).toLowerCase();
+    if (response == "yes" || response == "y") {
+      alert("Yes ");
+    } else {
+      alert("wrong");
+    }
+
+    guess7 = "hot dogs  ";
+    response = prompt(guess).toLowerCase();
+    if (response == "yes" || response == "y") {
+      alert("Yes ");
+    } else {
+      alert("wrong");
+    }
+
+    alert("round2");
+    for (let i = 0; i < 4; i++) {
+      let guess13 = prompt(" pick a nunber betwen 1 and 10");
+      let guess12 = 2;
+      if (guess13 == guess12) {
+        console.log(x++);
+        alert(" that was right");
+
+        break;
+      } else if (guess13 < guess12) {
+        alert("To low my guy");
+      } else if (guess13 > guess12) {
+        alert("To high my guy");
+
+let question= prompt('whats my favoite vidoe game ')
+
+        let item=['warframe','ufc3','football'];
+item[0]
+item[1]
+item[2]
+for (let i =0; i< item.length;i++) { problem += item[i] + '<br>';
+ 
+    console.log(item[i])
+    
+alert("that was right")
+if (item == item.length); {
+    alert('good');
+    item=true;
+}
+}
       }
-
-      console.log(problem);
-
-      let guess = "pizza";
-
-      response = prompt(guess).toLowerCase();
-      if (response == "yes" || response == "y") {
-        alert("right");
-      } else {
-        alert("wrong");
-      }
-
-      let guess2 = "burguers";
-      response = prompt(guess2).toLowerCase();
-      if (response == "yes" || response == "y") {
-        alert("yup");
-      } else {
-        alert("wrong");
-      }
-
-      let guess3 = "soup";
-      response = prompt(guess3).toLowerCase();
-
-      if (response == "yes" || response == "y") {
-        alert("wrong");
-      } else {
-        alert("your right");
-      }
-
-      let guess4 = "chicken ";
-
-      response = prompt(guess4).toLowerCase();
-      if (response == "yes" || response == "y") {
-        alert("yesssss sir");
-      } else {
-        alert("wrong");
-      }
-
-      guess5 = "walffes ";
-      response = prompt(guess5).toLowerCase();
-      if (response == "yes" || response == "y") {
-        alert("Yes ");
-      } else {
-        alert("wrong");
-      }
-
-      alert("round2");
-      for (let i = 0; i < 4; i++) {
-        let guess13 = prompt(" pick a nunber betwen 1 and 10");
-        let guess12 = 2;
-        if (guess13 == guess12) {
-          console.log(x++);
-          alert(" that was right");
-
-          break;
-        } else if (guess13 < guess12) {
-          alert("To low my guy");
-        } else if (guess13 > guess12) {
-          alert("To high my guy");
-        }
-      }
-    </script>
-  </body>
-</html>
+    }
+  </script>
+  </html>
